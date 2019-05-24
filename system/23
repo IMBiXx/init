@@ -1,0 +1,2 @@
+Graphic session: log in with username and password credentials
+SSH session: run command "ssh <user>@<ip-address>" and enter the password

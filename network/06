@@ -1,0 +1,3 @@
+cat /var/run/resolv.conf
+
+# /etc/resolv.conf contient l'adress IP du serveur DNS utilise

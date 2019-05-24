@@ -1,18 +1,22 @@
-autovt@.service                                                        enabled
-console-setup.service                                                  enabled
-cron.service                                                           enabled
-getty@.service                                                         enabled
-irqbalance.service                                                     enabled
-keyboard-setup.service                                                 enabled
-networking.service                                                     enabled
-rsync.service                                                          enabled
-rsyslog.service                                                        enabled
-ssh.service                                                            enabled
-sshd.service                                                           enabled
-syslog.service                                                         enabled
-systemd-timesyncd.service                                              enabled
-vboxadd-service.service                                                enabled
-vboxadd.service                                                        enabled
-remote-fs.target                                                       enabled
-apt-daily-upgrade.timer                                                enabled
-apt-daily.timer                                                        enabled
+# systemctl list-unit-files | grep enabled | cut -d " " -f 1
+
+autovt@.service
+console-setup.service
+cron.service
+getty@.service
+irqbalance.service
+keyboard-setup.service
+networking.service
+rsync.service
+rsyslog.service
+ssh.service
+sshd.service
+syslog.service
+systemd-timesyncd.service
+vboxadd-service.service
+vboxadd.service
+remote-fs.target
+apt-daily-upgrade.timer
+apt-daily.timer
+
+Enabled services start at boot. They are called daemons.
